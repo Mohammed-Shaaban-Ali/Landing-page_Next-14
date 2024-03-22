@@ -34,6 +34,7 @@ const Hero = () => {
       {/* hero image */}
       <div className="relative flex h-full w-full justify-center">
         <Image
+          priority
           src={Gredient}
           alt="Gredient"
           className="min-h-[500px] w-full object-cover"
