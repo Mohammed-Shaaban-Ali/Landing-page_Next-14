@@ -41,7 +41,7 @@ const Hero = () => {
         />
         <div className="absolute bottom-5 flex w-full flex-col items-center">
           <Image
-            placeholder="blur"
+            // placeholder="blur"
             src={HeroImage}
             alt="HeroImage"
             className="h-[310px] -ml-4 sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%] lg:max-w-[1000px]"
