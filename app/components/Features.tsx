@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import feature1 from "../../public/assets/feature-1.png";
 import feature1 from "../../public/assets/feature-1.png";
 import feature2 from "../../public/assets/feature-2.png";
 import feature3 from "../../public/assets/feature-3.png";
@@ -23,6 +22,7 @@ const Features = () => {
             </h1>
           </div>
           <Image
+            loading="lazy"
             placeholder="blur"
             src={feature1}
             alt="feature1"
@@ -67,18 +67,13 @@ const Features = () => {
           </div>
           <button className=" flex items-center  gap-2 text-[#0085FF] font-medium lg:mt-4">
             Learn More
-            <Image
-              placeholder="blur"
-              width={26}
-              height={26}
-              src={BlueBotton}
-              alt="BlueBotton"
-            />
+            <Image width={26} height={26} src={BlueBotton} alt="BlueBotton" />
           </button>
         </div>
         {/* Image */}
         <div className="flex-1 lg:block hidden">
           <Image
+            loading="lazy"
             placeholder="blur"
             src={feature1}
             alt="feature1"
@@ -93,6 +88,7 @@ const Features = () => {
         {/* Image */}
         <div className="flex-1 lg:block hidden">
           <Image
+            loading="lazy"
             placeholder="blur"
             src={feature2}
             alt="feature2"
@@ -112,6 +108,7 @@ const Features = () => {
           </div>
           <Image
             placeholder="blur"
+            loading="lazy"
             src={feature2}
             alt="feature2"
             className="lg:hidden"
@@ -138,7 +135,7 @@ const Features = () => {
           <button className=" flex items-center  gap-2 text-[#00A424] font-medium lg:mt-4">
             Learn More
             <Image
-              placeholder="blur"
+              loading="lazy"
               width={26}
               height={26}
               src={GreanBotton}
@@ -162,6 +159,7 @@ const Features = () => {
           </div>
           <Image
             placeholder="blur"
+            loading="lazy"
             src={feature3}
             alt="feature3"
             className="lg:hidden"
@@ -187,13 +185,7 @@ const Features = () => {
           </div>
           <button className=" flex items-center  gap-2 text-[#0085FF] font-medium lg:mt-4">
             Learn More
-            <Image
-              placeholder="blur"
-              width={26}
-              height={26}
-              src={BlueBotton}
-              alt="BlueBotton"
-            />
+            <Image width={26} height={26} src={BlueBotton} alt="BlueBotton" />
           </button>
         </div>
         {/* Image */}
@@ -201,6 +193,7 @@ const Features = () => {
           <Image
             placeholder="blur"
             src={feature3}
+            loading="lazy"
             alt="feature3"
             width={628}
             // className="lg:block hidden"

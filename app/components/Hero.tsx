@@ -34,6 +34,8 @@ const Hero = () => {
       {/* hero image */}
       <div className="relative flex h-full w-full justify-center">
         <Image
+          // layout="responsive"
+          // loading="lazy"
           priority
           src={Gredient}
           alt="Gredient"
@@ -41,7 +43,7 @@ const Hero = () => {
         />
         <div className="absolute bottom-5 flex w-full flex-col items-center">
           <Image
-            // placeholder="blur"
+            priority
             src={HeroImage}
             alt="HeroImage"
             className="h-[310px] -ml-4 sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%] lg:max-w-[1000px]"
@@ -51,11 +53,16 @@ const Hero = () => {
               Trusted by these companies
             </p>
             <div className="flex flex-wrap gap-x-3 items-center justify-center justify-items-center px-2 align-middle  lg:gap-16">
-              <Image placeholder="blur" src={Google} alt="Google " />
-              <Image placeholder="blur" src={Slack} alt="Slack" />
-              <Image placeholder="blur" src={Truspilot} alt="Truspilot" />
-              <Image placeholder="blur" src={Cnn} alt="Cnn" />
-              <Image placeholder="blur" src={Cluth} alt="Cluth" />
+              <Image priority placeholder="blur" src={Google} alt="Google " />
+              <Image priority placeholder="blur" src={Slack} alt="Slack" />
+              <Image
+                priority
+                placeholder="blur"
+                src={Truspilot}
+                alt="Truspilot"
+              />
+              <Image priority placeholder="blur" src={Cnn} alt="Cnn" />
+              <Image priority placeholder="blur" src={Cluth} alt="Cluth" />
             </div>
           </div>
         </div>
