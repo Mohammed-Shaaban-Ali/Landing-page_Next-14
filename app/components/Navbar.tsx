@@ -1,7 +1,7 @@
 import Image from "next/image";
-import logo from "../../public/assets/Logo.svg";
-import menu from "../../public/assets/Menu.svg";
-import user from "../../public/assets/User.svg";
+import logo from "../../public/assets/Logo.png";
+import menu from "../../public/assets/Menu.png";
+import user from "../../public/assets/User.png";
 
 const navbar = ["Features", "Pricing", "Enterprise", "Careers"];
 const Navbar = () => {

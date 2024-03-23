@@ -1,15 +1,15 @@
 import Image from "next/image";
-// import feature1 from "../../public/assets/feature-1.svg";
+// import feature1 from "../../public/assets/feature-1.png";
 import feature1 from "../../public/assets/feature-1.png";
-import feature2 from "../../public/assets/feature-2.svg";
-import feature3 from "../../public/assets/feature-3.svg";
+import feature2 from "../../public/assets/feature-2.png";
+import feature3 from "../../public/assets/feature-3.png";
 import Check from "../../public/assets/check.svg";
-import BlueBotton from "../../public/assets/blue-button.svg";
-import GreanBotton from "../../public/assets/green-button.svg";
+import BlueBotton from "../../public/assets/blue-button.png";
+import GreanBotton from "../../public/assets/green-button.png";
 
 const Features = () => {
   return (
-    <div className="py-8 lg:py-14 flex items-center justify-center  flex-col gap-20">
+    <div className="py-8 lg:py-14 flex items-center justify-center  flex-col gap-5 lg:gap-20">
       {/* feature 1 */}
       <div className=" flex items-center justify-between gap-x-28 ">
         {/* content */}
@@ -23,8 +23,8 @@ const Features = () => {
             </h1>
           </div>
           <Image
-            src={feature1}
             placeholder="blur"
+            src={feature1}
             alt="feature1"
             className="lg:hidden"
           />
@@ -35,23 +35,45 @@ const Features = () => {
           </p>
           <div className="flex flex-col gap-2 text-[#36485C]">
             <div className="flex gap-4">
-              <Image src={Check} alt="Check" width={24} height={24} />
+              <Image
+                className="w-6"
+                src={Check}
+                alt="Check"
+                width={24}
+                height={24}
+              />
               <p className="lg:text-lg">Lorem ipsum dolor sit amet</p>
             </div>
             <div className="flex gap-4">
-              <Image src={Check} alt="Check" width={24} height={24} />
+              <Image
+                className="w-6"
+                src={Check}
+                alt="Check"
+                width={24}
+                height={24}
+              />
               <p className="lg:text-lg">Consectetur adipiscing elit</p>
             </div>
             <div className="flex gap-4">
-              <Image src={Check} alt="Check" width={24} height={24} />
-              <p className="lg:text-lg">
-                Sed do eiusmod tempor incididunt ut labore{" "}
-              </p>
+              <Image
+                className="w-6"
+                src={Check}
+                alt="Check"
+                width={24}
+                height={24}
+              />
+              <p className="lg:text-lg">Sed do eiusmod tempor</p>
             </div>
           </div>
           <button className=" flex items-center  gap-2 text-[#0085FF] font-medium lg:mt-4">
             Learn More
-            <Image width={26} height={26} src={BlueBotton} alt="BlueBotton" />
+            <Image
+              placeholder="blur"
+              width={26}
+              height={26}
+              src={BlueBotton}
+              alt="BlueBotton"
+            />
           </button>
         </div>
         {/* Image */}
@@ -71,6 +93,7 @@ const Features = () => {
         {/* Image */}
         <div className="flex-1 lg:block hidden">
           <Image
+            placeholder="blur"
             src={feature2}
             alt="feature2"
             width={628}
@@ -87,7 +110,12 @@ const Features = () => {
               Get in touch with your customers
             </h1>
           </div>
-          <Image src={feature2} alt="feature2" className="lg:hidden" />
+          <Image
+            placeholder="blur"
+            src={feature2}
+            alt="feature2"
+            className="lg:hidden"
+          />
           <p className="text-[#36485C] leading-6 lg:text-lg">
             Stay on top of things and revamp your work process with our
             game-changing feature. Get a bird&apos;s eye view with our
@@ -104,14 +132,18 @@ const Features = () => {
             </div>
             <div className="flex gap-4">
               <Image src={Check} alt="Check" width={24} height={24} />
-              <p className="lg:text-lg">
-                Sed do eiusmod tempor incididunt ut labore{" "}
-              </p>
+              <p className="lg:text-lg">Sed do eiusmod tempor</p>
             </div>
           </div>
           <button className=" flex items-center  gap-2 text-[#00A424] font-medium lg:mt-4">
             Learn More
-            <Image width={26} height={26} src={GreanBotton} alt="GreanBotton" />
+            <Image
+              placeholder="blur"
+              width={26}
+              height={26}
+              src={GreanBotton}
+              alt="GreanBotton"
+            />
           </button>
         </div>
       </div>
@@ -128,7 +160,12 @@ const Features = () => {
               Simplify your sales monitoring
             </h1>
           </div>
-          <Image src={feature3} alt="feature3" className="lg:hidden" />
+          <Image
+            placeholder="blur"
+            src={feature3}
+            alt="feature3"
+            className="lg:hidden"
+          />
           <p className="text-[#36485C] leading-6 lg:text-lg">
             Stay on top of things and revamp your work process with our
             game-changing feature. Get a bird&apos;s eye view with our
@@ -145,19 +182,24 @@ const Features = () => {
             </div>
             <div className="flex gap-4">
               <Image src={Check} alt="Check" width={24} height={24} />
-              <p className="lg:text-lg">
-                Sed do eiusmod tempor incididunt ut labore{" "}
-              </p>
+              <p className="lg:text-lg">Sed do eiusmod tempor</p>
             </div>
           </div>
           <button className=" flex items-center  gap-2 text-[#0085FF] font-medium lg:mt-4">
             Learn More
-            <Image width={26} height={26} src={BlueBotton} alt="BlueBotton" />
+            <Image
+              placeholder="blur"
+              width={26}
+              height={26}
+              src={BlueBotton}
+              alt="BlueBotton"
+            />
           </button>
         </div>
         {/* Image */}
         <div className="flex-1 lg:block hidden">
           <Image
+            placeholder="blur"
             src={feature3}
             alt="feature3"
             width={628}
