@@ -20,7 +20,7 @@ const Navbar = () => {
       {/* right */}
       <div className="flex items-center gap-x-5">
         <div className="flex items-center">
-          <h1 className="text-[#36485C] font-medium hidden lg:block mr-20 ">
+          <h1 className="text-[#36485C] font-medium hidden lg:block mr-14 ">
             Open an Account
           </h1>
           <div className="flex items-center gap-4 ">
