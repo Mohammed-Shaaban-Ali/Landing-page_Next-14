@@ -1,7 +1,7 @@
 import Image from "next/image";
-import logo from "../../public/assets/Logo.svg";
-import menu from "../../public/assets/Menu.svg";
-import user from "../../public/assets/User.svg";
+import logo from "../../public/assets/Logo.png";
+import menu from "../../public/assets/Menu.png";
+import user from "../../public/assets/User.png";
 
 const navbar = ["Features", "Pricing", "Enterprise", "Careers"];
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
       {/* right */}
       <div className="flex items-center gap-x-5">
         <div className="flex items-center">
-          <h1 className="text-[#36485C] font-medium hidden lg:block mr-20 ">
+          <h1 className="text-[#36485C] font-medium hidden lg:block mr-14 ">
             Open an Account
           </h1>
           <div className="flex items-center gap-4 ">

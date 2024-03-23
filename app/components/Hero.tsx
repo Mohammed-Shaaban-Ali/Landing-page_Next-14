@@ -1,12 +1,12 @@
 import Image from "next/image";
-import BlueBotton from "../../public/assets/blue-button.svg";
+import BlueBotton from "../../public/assets/blue-button.png";
 import Gredient from "../../public/assets/Gradient.svg";
-import HeroImage from "../../public/assets/Image.svg";
-import Google from "../../public/assets/Google.svg";
-import Slack from "../../public/assets/Slack.svg";
-import Truspilot from "../../public/assets/Trustpilot.svg";
-import Cnn from "../../public/assets/CNN.svg";
-import Cluth from "../../public/assets/Clutch.svg";
+import HeroImage from "../../public/assets/Image.png";
+import Google from "../../public/assets/Google.png";
+import Slack from "../../public/assets/Slack.png";
+import Truspilot from "../../public/assets/Trustpilot.png";
+import Cnn from "../../public/assets/CNN.png";
+import Cluth from "../../public/assets/Clutch.png";
 
 const Hero = () => {
   return (
@@ -41,21 +41,20 @@ const Hero = () => {
         />
         <div className="absolute bottom-5 flex w-full flex-col items-center">
           <Image
-            // priority
             src={HeroImage}
             alt="HeroImage"
-            className="h-[310px] -ml-4 sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%]"
+            className="h-[310px] -ml-4 sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%] lg:max-w-[1000px]"
           />
           <div className="flex w-full flex-col items-center lg:container lg:flex-row lg:justify-between lg:px-20">
             <p className="text-[#FFFFFF] text-center lg:text-[18px] mb-2 ">
               Trusted by these companies
             </p>
             <div className="flex flex-wrap gap-x-3 items-center justify-center justify-items-center px-2 align-middle  lg:gap-16">
-              <Image src={Google} alt="Google " />
-              <Image src={Slack} alt="Slack" />
-              <Image src={Truspilot} alt="Truspilot" />
-              <Image src={Cnn} alt="Cnn" />
-              <Image src={Cluth} alt="Cluth" />
+              <Image placeholder="blur" src={Google} alt="Google " />
+              <Image placeholder="blur" src={Slack} alt="Slack" />
+              <Image placeholder="blur" src={Truspilot} alt="Truspilot" />
+              <Image placeholder="blur" src={Cnn} alt="Cnn" />
+              <Image placeholder="blur" src={Cluth} alt="Cluth" />
             </div>
           </div>
         </div>
