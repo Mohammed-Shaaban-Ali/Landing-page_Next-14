@@ -34,8 +34,6 @@ const Hero = () => {
       {/* hero image */}
       <div className="relative flex h-full w-full justify-center">
         <Image
-          // layout="responsive"
-          // loading="lazy"
           priority
           src={Gredient}
           alt="Gredient"
@@ -43,7 +41,6 @@ const Hero = () => {
         />
         <div className="absolute bottom-5 flex w-full flex-col items-center">
           <Image
-            priority
             src={HeroImage}
             alt="HeroImage"
             className="h-[310px] -ml-4 sm:-mb-20 sm:h-[400px] lg:-mb-28 lg:h-auto xl:w-[70%] lg:max-w-[1000px]"
