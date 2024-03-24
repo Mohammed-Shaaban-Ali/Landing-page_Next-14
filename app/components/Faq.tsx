@@ -1,7 +1,7 @@
 "use client";
 
 import * as Accordion from "@radix-ui/react-accordion";
-import Plus from "../../public/assets/Plus.png";
+import Plus from "../../public/assets/Plus.svg";
 import Image from "next/image";
 
 const items = [

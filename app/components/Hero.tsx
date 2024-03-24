@@ -50,11 +50,16 @@ const Hero = () => {
               Trusted by these companies
             </p>
             <div className="flex flex-wrap gap-x-3 items-center justify-center justify-items-center px-2 align-middle  lg:gap-16">
-              <Image placeholder="blur" src={Google} alt="Google " />
-              <Image placeholder="blur" src={Slack} alt="Slack" />
-              <Image placeholder="blur" src={Truspilot} alt="Truspilot" />
-              <Image placeholder="blur" src={Cnn} alt="Cnn" />
-              <Image placeholder="blur" src={Cluth} alt="Cluth" />
+              <Image priority placeholder="blur" src={Google} alt="Google " />
+              <Image priority placeholder="blur" src={Slack} alt="Slack" />
+              <Image
+                priority
+                placeholder="blur"
+                src={Truspilot}
+                alt="Truspilot"
+              />
+              <Image priority placeholder="blur" src={Cnn} alt="Cnn" />
+              <Image priority placeholder="blur" src={Cluth} alt="Cluth" />
             </div>
           </div>
         </div>
