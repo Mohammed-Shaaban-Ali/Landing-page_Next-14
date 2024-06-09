@@ -3,8 +3,6 @@ import feature1 from "../../public/assets/feature-1.png";
 import feature2 from "../../public/assets/feature-2.png";
 import feature3 from "../../public/assets/feature-3.png";
 import Check from "../../public/assets/check.svg";
-import BlueBotton from "../../public/assets/blue-button.png";
-import GreanBotton from "../../public/assets/green-button.png";
 
 const Features = () => {
   return (
@@ -65,10 +63,31 @@ const Features = () => {
               <p className="lg:text-lg">Sed do eiusmod tempor</p>
             </div>
           </div>
-          <button className=" flex items-center  gap-2 text-[#0085FF] font-medium lg:mt-4">
-            Learn More
-            <Image width={26} height={26} src={BlueBotton} alt="BlueBotton" />
-          </button>
+          <div className=" flex items-center  gap-2 text-[#0085FF] font-medium lg:mt-4">
+            <button className="group flex items-center justify-center w-full lg:w-[50%]  lg:justify-between gap-4 rounded-lg border border-current px-5 py-3 text-indigo-600 transition-colors hover:bg-indigo-600 focus:outline-none focus:ring active:bg-indigo-500">
+              <span className="font-medium transition-colors group-hover:text-white">
+                {" "}
+                Learn More{" "}
+              </span>
+
+              <span className="shrink-0 rounded-full border border-indigo-600 bg-white p-2 group-active:border-indigo-500">
+                <svg
+                  className="size-5 rtl:rotate-180"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
         </div>
         {/* Image */}
         <div className="flex-1 lg:block hidden">
@@ -132,16 +151,31 @@ const Features = () => {
               <p className="lg:text-lg">Sed do eiusmod tempor</p>
             </div>
           </div>
-          <button className=" flex items-center  gap-2 text-[#00A424] font-medium lg:mt-4">
-            Learn More
-            <Image
-              loading="lazy"
-              width={26}
-              height={26}
-              src={GreanBotton}
-              alt="GreanBotton"
-            />
-          </button>
+          <div className=" flex items-center  gap-2 text-[#00A424] font-medium lg:mt-4">
+            <button className="group flex items-center justify-center w-full lg:w-[50%]  lg:justify-between gap-4 rounded-lg border border-current px-5 py-3 text-[#00A424] transition-colors hover:bg-[#00A424] focus:outline-none focus:ring active:bg-[#00A424]">
+              <span className="font-medium transition-colors group-hover:text-white">
+                {" "}
+                Learn More{" "}
+              </span>
+
+              <span className="shrink-0 rounded-full border border-[#00A424] bg-white p-2 group-active:border-[#00A424]">
+                <svg
+                  className="size-5 rtl:rotate-180"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -183,10 +217,31 @@ const Features = () => {
               <p className="lg:text-lg">Sed do eiusmod tempor</p>
             </div>
           </div>
-          <button className=" flex items-center  gap-2 text-[#0085FF] font-medium lg:mt-4">
-            Learn More
-            <Image width={26} height={26} src={BlueBotton} alt="BlueBotton" />
-          </button>
+          <div className=" flex items-center  gap-2 text-[#0085FF] font-medium lg:mt-4">
+            <button className="group flex items-center justify-center w-full lg:w-[50%]  lg:justify-between gap-4 rounded-lg border border-current px-5 py-3 text-indigo-600 transition-colors hover:bg-indigo-600 focus:outline-none focus:ring active:bg-indigo-500">
+              <span className="font-medium transition-colors group-hover:text-white">
+                {" "}
+                Learn More{" "}
+              </span>
+
+              <span className="shrink-0 rounded-full border border-indigo-600 bg-white p-2 group-active:border-indigo-500">
+                <svg
+                  className="size-5 rtl:rotate-180"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
         </div>
         {/* Image */}
         <div className="flex-1 lg:block hidden">

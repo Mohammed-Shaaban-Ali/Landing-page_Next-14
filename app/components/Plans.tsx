@@ -15,7 +15,7 @@ const Plans = () => {
       {/* card */}
       <div className="flex flex-col gap-6 lg:flex-row ">
         {/* card 1 */}
-        <div className="w-full flex flex-col gap-y-4 bg-[#F5F4FF] p-6 rounded-lg justify-evenly">
+        <div className="w-full flex flex-col gap-y-4 bg-[#F5F4FF] p-6 rounded-lg justify-evenly hover:scale-105 transition cursor-pointer">
           <div className="space-y-2">
             <h2 className="text-[#4328EB] text-xl font-medium">Free Trial</h2>
             <p className="text-[#36485C]">Perfect for testing the waters</p>
@@ -43,7 +43,7 @@ const Plans = () => {
         </div>
 
         {/* card 2 */}
-        <div className="w-full flex flex-col gap-y-4 bg-[#4328EB] p-6 rounded-lg justify-evenly">
+        <div className="w-full flex flex-col gap-y-4 bg-[#4328EB] p-6 rounded-lg justify-evenly hover:scale-105 transition cursor-pointer">
           <div className="space-y-2 text-[#F4F8FA]">
             <h2 className=" text-xl font-medium">Business</h2>
             <p>Perfect for small businesses</p>
@@ -79,7 +79,7 @@ const Plans = () => {
         </div>
 
         {/* card 3 */}
-        <div className="w-full flex flex-col gap-y-4 bg-[#F5F4FF] p-6 rounded-lg justify-evenly">
+        <div className="w-full flex flex-col gap-y-4 bg-[#F5F4FF] p-6 rounded-lg justify-evenly hover:scale-105 transition cursor-pointer">
           <div className="space-y-2">
             <h2 className="text-[#4328EB] text-xl font-medium">Enterprise</h2>
             <p className="text-[#36485C]">Perfect for big companies</p>

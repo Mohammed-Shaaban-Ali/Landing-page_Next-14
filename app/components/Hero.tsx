@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BlueBotton from "../../public/assets/blue-button.png";
+import BlueBotton from "../../public/assets/blue-button.svg";
 import Gredient from "../../public/assets/Gradient.svg";
 import HeroImage from "../../public/assets/Image.png";
 import Google from "../../public/assets/Google.png";
@@ -22,9 +22,13 @@ const Hero = () => {
           feature. Boost productivity and efficiency!
         </p>
         {/* booton */}
-        <div className="flex items-center  justify-center gap-4 ">
-          <button className="px-8 py-4 text-white rounded-md bg-[#4328EB] font-medium">
-            Try for free
+        <div className="flex items-center justify-center gap-2 sm:gap-4 ">
+          {/* <button className="px-8 py-4 text-white rounded-md bg-[#4328EB] font-medium"> */}
+          <button className="group relative inline-block text-sm font-medium text-white focus:outline-none focus:ring">
+            <span className="absolute inset-0 border border-[#4328EB] group-active:border-[#4328EB]"></span>
+            <span className="block border border-[#4328EB] bg-[#4328EB] px-12 py-3 transition-transform active:border-[#4328EB] active[#4328EB] group-hover:-translate-x-1 group-hover:-translate-y-1">
+              Try for free
+            </span>
           </button>
           <button className=" flex items-center gap-2 text-[#4328EB] font-medium">
             View Pricing <Image src={BlueBotton} alt="BlueBotton" />

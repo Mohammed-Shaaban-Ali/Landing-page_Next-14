@@ -12,11 +12,11 @@ export function Cta() {
       </p>
 
       <div className="mt-[40px] flex flex-col w-full items-center lg:mt-[56px] lg:flex-row lg:justify-center gap-x-[40px]">
-        <button className="py-[16px] px-[32px] bg-white rounded-[4px] text-pink-500 w-fit font-medium">
+        <button className="inline-block   bg-white rounded-[4px] text-pink-500 px-8 py-3 text-sm font-medium  transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-indigo-500">
           Try for free
         </button>
 
-        <button className="flex w-full items-center justify-center font-medium gap-x-3 mt-[32px] text-white font-medium lg:w-fit lg:mt-0">
+        <button className="flex w-full items-center justify-center  gap-x-3 mt-[32px] text-white font-medium lg:w-fit lg:mt-0">
           Contact Sales{" "}
           <span>
             <Image src={Arrow} alt="Learn More" />
