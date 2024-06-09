@@ -6,7 +6,7 @@ import Google from "../../public/assets/Google.png";
 import Slack from "../../public/assets/Slack.png";
 import Truspilot from "../../public/assets/Trustpilot.png";
 import Cnn from "../../public/assets/CNN.png";
-import Cluth from "../../public/assets/Clutch.png";
+import Cluth from "../../public/assets/Clutch.svg";
 
 const Hero = () => {
   return (
@@ -63,7 +63,7 @@ const Hero = () => {
                 alt="Truspilot"
               />
               <Image priority placeholder="blur" src={Cnn} alt="Cnn" />
-              <Image priority placeholder="blur" src={Cluth} alt="Cluth" />
+              <Image priority src={Cluth} alt="Cluth" />
             </div>
           </div>
         </div>
